@@ -120,13 +120,24 @@ body{
   width: 50%;
 }
 
+.hero__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero__image{
   height: 340px;
   width: 340px;
-  border-radius: 10px;
+  border-radius: 80px;
 }
 
 .hero__content h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
   font-size: 48px;
   line-height: 60px;
   font-weight: 400;
